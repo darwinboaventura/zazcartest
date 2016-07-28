@@ -1,0 +1,19 @@
+<ul class="list">
+	<li class="clearfix" ng-repeat="shot in shots">
+		<div class="thumbnail clearfix">
+			<img ng-src="{{shot.images.teaser}}">
+
+			<a href="#/shotDetail/{{shot.id}}" class="over clearfix">
+				<strong>{{shot.title}}</strong>
+
+				<span class="comment">{{shot.description | htmlToPlaintext}}</span>
+			</a>
+		</div>
+
+		<div class="views clearfix">
+			<i class="fa fa-eye"></i>
+
+			{{shot.views_count}}
+		</div>
+	</li>
+</ul>

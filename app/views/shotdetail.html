@@ -1,0 +1,19 @@
+<section class="single-shot clearfix">
+	<header class="clearfix">
+		<div class="picture-author">
+			<img ng-src="{{shot.user.avatar_url}}" alt="{{shot.user.name}}">
+		</div>
+
+		<div class="details clearfix">
+			<h1>{{shot.title}}</h1>
+
+			<h2>{{shot.user.name}}</h2>
+		</div>
+	</header>
+
+	<main class="clearfix">
+		<img ng-src="{{shot.images.hidpi}}" alt="">
+
+		<p class="text">{{shot.description | htmlToPlaintext}}</p>
+	</main>
+</section>
