@@ -1,13 +1,11 @@
-# zazcar
+# Zazcar Test
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.15.1.
+Esse projeto foi gerado com [yo angular generator](https://github.com/yeoman/generator-angular)
 
-## Build & development
+## Construção e desenvolvimento
 
-Run `grunt` for building and `grunt serve` for preview.
+Rode `gulp` para gerar a versão de produção e `gulp serve` para prever.
 
-## Testing
+## Versão em Produção
 
-Running `grunt test` will run the unit tests with karma.
-"# zazcartest" 
+http://www.clientesgrupoa2.com.br/darwin/zazcar
